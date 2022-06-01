@@ -1,0 +1,21 @@
+.profile-wrapper .profile-outer{
+    max-width: 80%;
+}
+
+.profile-wrapper .profile-content, .profile-wrapper .content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-wrapper .content{
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-wrapper .content + div{
+    text-align: center;
+}
+.profile-wrapper span{
+    padding: 15px;
+}
+
