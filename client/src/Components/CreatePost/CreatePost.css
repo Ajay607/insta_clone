@@ -1,0 +1,13 @@
+.create-post-wrapper{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.submit-btn{
+    width: 150px;
+}
