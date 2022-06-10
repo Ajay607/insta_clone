@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
+var cors = require('cors')
 const mongoose = require('mongoose');
 const PORT = 5000;
 const {MONGOURI} = require('./keys');
+
+app.use(cors());
 
 require('./model/user')
 require('./model/post')
