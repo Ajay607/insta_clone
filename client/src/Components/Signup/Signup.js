@@ -32,6 +32,8 @@ const Signup = () => {
           M.toast({html: data.message})
           history.push('/sign-in')
         }
+      }).catch((err)=>{
+        console.log(err)
       })
   }
 
@@ -43,18 +45,21 @@ const Signup = () => {
         <input
           type="text"
           placeholder='name'
+          autoComplete="off"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <input
           type="email"
           placeholder='email'
+          autoComplete="off"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
           type="password"
           placeholder='password'
+          autoComplete="off"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
