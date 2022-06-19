@@ -1,1 +1,11 @@
 
+.sign-up .password-wrapper{
+    position: relative;
+}
+.sign-up .password-wrapper .password-visible{
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    border: 0;
+    background: none;
+}

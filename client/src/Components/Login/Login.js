@@ -44,12 +44,14 @@ const Login = () => {
         <input
           type="email"
           placeholder='email'
+          autoComplete="new-password"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
           type="password"
           placeholder='password'
+          autoComplete="new-password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
